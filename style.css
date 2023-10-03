@@ -1,0 +1,54 @@
+.row {
+  width: 600px;
+  margin: auto;
+  border: 3px solid black;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.label {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .row {
+    width: 210px;
+  }
+  #label {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 685px) {
+  .row {
+    width: 420px;
+  }
+  #label {
+    height: 35px;
+  }
+}
+@media (max-width: 435px) {
+  .row {
+    width: 220px;
+  }
+}
+#label {
+  background-color: yellow;
+  color: rgb(12, 182, 12);
+  font-weight: 600;
+  text-align: left;
+  padding-left: 0px;
+  margin-left: 15px;
+  width: 100px;
+}
+@media (min-width: 685px) {
+  #label {
+    height: 35px;
+  }
+}
+body {
+  background-color: rgb(225, 97, 123);
+}
+#con {
+  background-color: rgb(225, 97, 123);
+}
+input {
+  font-weight: bold;
+}
